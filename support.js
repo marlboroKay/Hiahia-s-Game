@@ -57,19 +57,19 @@ function getNumberBackgroundColor(number){
 function getNumberBackgroundImg(number){
 	switch(number){
 		
-		case 2:return "url(1.jpg)   ";break;
-		case 4:return "url(9.jpg)  ";break;
-		case 8:return "url(8.jpg)  ";break;
-		case 16:return "url(3.jpg) ";break;
-		case 32:return "url(2.jpg) ";break;
-		case 64:return "url(12.jpg) ";break;
-		case 128:return "url(16.jpg) ";break;
-		case 256:return "url(11.jpg) ";break;
-		case 512:return "url(6.jpg) ";break;
-		case 1024:return "url(10.jpg) ";break;
-		case 2048:return "url(11.jpg) ";break;
-		case 4096:return "url(5.jpg) ";break;
-		case 8192:return "url(17.jpg) ";break;
+		case 2:return "url(images/1.jpg)   ";break;
+		case 4:return "url(images/9.jpg)  ";break;
+		case 8:return "url(images/8.jpg)  ";break;
+		case 16:return "url(images/3.jpg) ";break;
+		case 32:return "url(images/2.jpg) ";break;
+		case 64:return "url(images/12.jpg) ";break;
+		case 128:return "url(images/16.jpg) ";break;
+		case 256:return "url(images/11.jpg) ";break;
+		case 512:return "url(images/6.jpg) ";break;
+		case 1024:return "url(images/10.jpg) ";break;
+		case 2048:return "url(images/11.jpg) ";break;
+		case 4096:return "url(images/5.jpg) ";break;
+		case 8192:return "url(images/17.jpg) ";break;
 		
 	}
 	return "black";
